@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 1em;
+    gap: 16px;
+
+}
+.item{
+    height: 150px;
+    width: 80%;
+    background-color: #86CECB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 16px;
+    border-radius: 25px;
+}
+.texto{
+    font-size: 64px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.forma{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+.vermelho{
+    background-color: red;
+}
+.circulo{
+    border-radius: 50%;
+}
+.carinhatriste{
+    background-image: url(https://i.pinimg.com/originals/67/79/80/67798022560a71e89d27f1c6f2b079a5.png);
+    background-size: cover;
+}
+.rodar{
+    transform: rotate(50deg);
+}
+.mudartamanho{
+    height: 50px;
+}
+.tortinho{
+    
+    transform: skew(15deg, 15deg);
+    
+}
+.opacidade{
+    opacity: 20%;
+}
+.borda{
+    border: 5px blue;
+}
